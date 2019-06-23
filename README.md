@@ -1,4 +1,6 @@
-# Keebs: Personal QMK Setup
+# Keebs :keyboard: 
+
+### Personal QMK Setup
 
 Helps keep a clean environment for building / compiling QMK firmware for various keyboards.
 
@@ -7,5 +9,9 @@ Helps keep a clean environment for building / compiling QMK firmware for various
 Run `git submodule update --init` when cloning for the first time to grab the latest [qmk_firmware](https://github.com/qmk/qmk_firmware) code.
 
 Use `git submodule update --remote` to pull updates.
+
+### Help
+
+https://docs.qmk.fm/#/newbs
 
 -_semoog_
