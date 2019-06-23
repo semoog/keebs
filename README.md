@@ -1,5 +1,11 @@
-## keyboards
+# Personal QMK setup
 
-Personal QMK setup
+Helps keep a clean environment for building / compiling QMK firmware for various keyboards.
 
-Helps me keep a good environment for building / compiling QMK firmware for various keyboards.
+### Dependencies
+
+Run `git submodule update --init` when cloning for the first time to grab the latest qmk_firmware code.
+
+Use `git submodule update --remote` to pull updates.
+
+-_semoog_
