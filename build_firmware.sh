@@ -3,7 +3,7 @@
 board=$1
 keymap=$2
 
-local_dir=~/personal/keebs
+local_dir=$(pwd)
 board_dir=$board
 
 # Prettyness
