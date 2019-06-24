@@ -1,6 +1,6 @@
 # Keebs :keyboard: 
 
-### Personal QMK Setup
+### QMK Development Setup
 
 Helps keep a clean environment for building / compiling QMK firmware for various keyboards.
 
