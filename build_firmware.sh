@@ -2,6 +2,7 @@
 
 board=$1
 keymap=$2
+bootloader=$3
 
 local_dir=$(pwd)
 board_dir=$board
@@ -42,7 +43,7 @@ ln -s $local_dir/$board/$keymap $tmp_dir
 
 # Build
 cd $local_dir/qmk_firmware
-make $board_dir:$keymap
+make $board_dir:$keymap${bootloader:+:$bootloader}
 
 # Format build file location
 board_dir=${board_dir//\//_}

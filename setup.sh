@@ -11,7 +11,7 @@ case $USER in
 esac
 
 case $OSTYPE in
-    darwin*)
+    darwin*|linux-gnu)
 	if [[ ! -d "$local_dir/qmk_firmware" ]]; then
             mkdir $local_dir/qmk_firmware
 	fi
